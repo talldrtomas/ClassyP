@@ -13,6 +13,9 @@
 		0E8C17E421DA8C600030D140 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E8C17E221DA8C600030D140 /* Main.storyboard */; };
 		0E8C17E621DA8C620030D140 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E8C17E521DA8C620030D140 /* Assets.xcassets */; };
 		0E8C17E921DA8C620030D140 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E8C17E721DA8C620030D140 /* LaunchScreen.storyboard */; };
+		0E8C17F121DA8CFB0030D140 /* ArItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8C17F021DA8CFB0030D140 /* ArItems.swift */; };
+		0E8C17F321DA8E0B0030D140 /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8C17F221DA8E0B0030D140 /* Locations.swift */; };
+		0E8C17F721DA91AD0030D140 /* MapAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8C17F621DA91AD0030D140 /* MapAnnotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		0E8C17E521DA8C620030D140 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E8C17E821DA8C620030D140 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E8C17EA21DA8C620030D140 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E8C17F021DA8CFB0030D140 /* ArItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArItems.swift; sourceTree = "<group>"; };
+		0E8C17F221DA8E0B0030D140 /* Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
+		0E8C17F621DA91AD0030D140 /* MapAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				0E8C17DC21DA8C600030D140 /* AppDelegate.swift */,
 				0E8C17DE21DA8C600030D140 /* art.scnassets */,
 				0E8C17E021DA8C600030D140 /* ViewController.swift */,
+				0E8C17F621DA91AD0030D140 /* MapAnnotation.swift */,
+				0E8C17F221DA8E0B0030D140 /* Locations.swift */,
+				0E8C17F021DA8CFB0030D140 /* ArItems.swift */,
 				0E8C17E221DA8C600030D140 /* Main.storyboard */,
 				0E8C17E521DA8C620030D140 /* Assets.xcassets */,
 				0E8C17E721DA8C620030D140 /* LaunchScreen.storyboard */,
@@ -140,6 +149,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E8C17E121DA8C600030D140 /* ViewController.swift in Sources */,
+				0E8C17F721DA91AD0030D140 /* MapAnnotation.swift in Sources */,
+				0E8C17F121DA8CFB0030D140 /* ArItems.swift in Sources */,
+				0E8C17F321DA8E0B0030D140 /* Locations.swift in Sources */,
 				0E8C17DD21DA8C600030D140 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
